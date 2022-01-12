@@ -45,7 +45,7 @@ a {
 
 .section1 div{
     background-color: grey;
-    margin: 0 5px;
+    margin: 5px 5px 0 5px;
     padding: 0 10px;
     color: white;
     height: 30px;
@@ -56,15 +56,29 @@ a {
 
 /* Sezione 2 */
 
+/* .section2 img{
+    margin: 30px 40px;
+} */
+
 .section2{
     display: flex;
     flex-wrap: wrap;
     column-gap: 5px;
-    row-gap: 10px;
+    row-gap: 12px;
     justify-content: center;
-    margin: 30px 40px;
-    
+    color: white;
+    margin-top: 40px;
 }
 
+.section2 div{
+    position: relative;
+}
 
-
+.section2 i{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
