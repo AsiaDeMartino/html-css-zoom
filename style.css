@@ -59,6 +59,7 @@ a {
     row-gap: 12px;
     justify-content: center;
     margin: 30px 40px;
+    flex-grow: 1;
 }
 
 .section2 div{
@@ -96,7 +97,7 @@ footer{
     bottom: 100%;
 } */
 
-/* .navbar div{
+/* .mute{
     position: relative;
 } */
 
@@ -128,6 +129,10 @@ footer{
     display: flex;
     row-gap: 20px;
     column-gap: 20px;
+}
+
+#green{
+    color: rgb(92, 255, 47);
 }
 
 .end{
